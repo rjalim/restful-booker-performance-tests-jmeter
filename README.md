@@ -63,13 +63,13 @@ jmeter -g  report\Performance-testing.jtl -o report\Performance-testing.jtl.html
 
 ## 🛠️ Customization Guide
 ### Modify Test Load:
+ ```console
 <!-- Inside your .jmx file -->
 <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup">
   <intProp name="ThreadGroup.num_threads">100</intProp> <!-- Virtual Users -->
   <intProp name="ThreadGroup.ramp_time">300</intProp>  <!-- Ramp-up time -->
 </ThreadGroup>
-
-
+ ```
 ## Generate Comparative Reports:
 
 jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.comparison_keys=Label,Avg,Error%
