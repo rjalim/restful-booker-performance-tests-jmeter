@@ -7,8 +7,6 @@ This project demonstrates performance testing of the [Restful Booker API](https:
 - Auto-generated HTML Dashboard
 - Metrics: Response Time, Throughput, APDEX, Error % and more
 
-# 🔥 Restful-Booker API Performance Tests | JMeter
-
 ![JMeter](https://img.shields.io/badge/Apache_JMeter-5.6-red)
 ![Tests](https://img.shields.io/badge/Tests-8_passed-brightgreen)
 ![Reports](https://img.shields.io/badge/Reports-HTML_Dashboard-blue)
