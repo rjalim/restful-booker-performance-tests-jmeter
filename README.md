@@ -54,22 +54,21 @@ restful-booker-performance-tests-jmeter/
 ## 🛠️ Customization Guide
 
 ### Modify Test Load:
-<!-- In your .jmx file -->
+<!-- Inside your .jmx file -->
 <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup">
-  <intProp name="ThreadGroup.num_threads">100</intProp>  <!-- Virtual Users -->
-  <intProp name="ThreadGroup.ramp_time">300</intProp>   <!-- Ramp-up (seconds) -->
+  <intProp name="ThreadGroup.num_threads">100</intProp> <!-- Virtual Users -->
+  <intProp name="ThreadGroup.ramp_time">300</intProp>  <!-- Ramp-up time -->
 </ThreadGroup>
 
-Generate Comparative Reports:
 
-bash
+## Generate Comparative Reports:
+
 jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.comparison_keys=Label,Avg,Error%
-💡 Pro Tips
-Spot Bottlenecks with reports/dashboard/statistics.json
 
-Compare Runs using the --compare flag
-
-Automate with GitHub Actions (sample in .github/workflows/)
+## 💡 Pro Tips
+-Spot Bottlenecks with reports/dashboard/statistics.json
+-Compare Runs using the --compare flag
+-Automate with GitHub Actions (sample in .github/workflows/)
 
 ## 📜 License
 MIT © 2025 [Your Name] | 📊 View Full Report
