@@ -51,8 +51,13 @@ restful-booker-performance-tests-jmeter/
 - ├── config/              # Environment properties
 - └── scripts/             # Execution helpers
 
-## 🛠️ Customization Guide
+▶️ How to Run the Test
+jtl file-making command
+jmeter -n -t Performance-testing.jmx -l report\Performance-testing.jtl   
+html file generate command
+jmeter -g  report\Performance-testing.jtl -o report\Performance-testing.jtl.html  
 
+## 🛠️ Customization Guide
 ### Modify Test Load:
 <!-- Inside your .jmx file -->
 <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup">
