@@ -1,0 +1,7 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1750995914474,1621,Authentication,200,OK,Thread Group 1-1,text,true,,766,250,1,1,https://restful-booker.herokuapp.com/auth,1619,0,1306
+1750995916117,308,CreateBooking by POST Operation,200,OK,Thread Group 1-1,text,true,,950,466,1,1,https://restful-booker.herokuapp.com/booking,308,0,0
+1750995916426,308,GetBooking By GET,200,OK,Thread Group 1-1,text,true,,921,200,1,1,https://restful-booker.herokuapp.com/booking/2364,308,0,0
+1750995916735,309,UpdateBooking By PUT,200,OK,Thread Group 1-1,text,true,,922,502,1,1,https://restful-booker.herokuapp.com/booking/2364,309,0,0
+1750995917044,309,PartialUpdateBooking By Patch,200,OK,Thread Group 1-1,text,true,,922,311,1,1,https://restful-booker.herokuapp.com/booking/2364,309,0,0
+1750995917354,309,DeleteBooking by DELETE,201,Created,Thread Group 1-1,text,true,,755,227,1,1,https://restful-booker.herokuapp.com/booking/2364,309,0,0
