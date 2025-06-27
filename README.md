@@ -33,7 +33,7 @@ open reports/dashboard/index.html
 | ✏️ Update Booking | 281ms       | 3.56/s     | 0%         | 281ms     |
 | 🗑️ Delete Booking | 282ms       | 3.55/s     | 0%         | 282ms     |
 
-pie showTitle
+## pie showTitle
     title Request Distribution
     "Auth" : 15
     "Create" : 20
@@ -41,13 +41,12 @@ pie showTitle
     "Update" : 20
     "Delete" : 20
 
-
     
-🏗️ Project Structure
+## 🏗️ Project Structure
 text
 restful-booker-performance-tests-jmeter/
 ├── test-plans/          # JMeter test scripts (.jmx)
-├── test-data/           # Parameterization CSVs
+                         # Parameterization CSVs
 ├── results/             # Raw results (.jtl, .json)
 ├── reports/             # HTML dashboards
 │   └── dashboard/       # Interactive visualizations
@@ -73,7 +72,7 @@ Compare Runs using the --compare flag
 
 Automate with GitHub Actions (sample in .github/workflows/)
 
-📜 License
+## 📜 License
 MIT © 2025 [Your Name] | 📊 View Full Report
 
 Made with ❤️ using Apache JMeter | Last run: 2025-06-27
