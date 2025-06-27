@@ -24,16 +24,16 @@ git clone https://github.com/yourusername/restful-booker-performance-tests-jmete
 # 3. View interactive report
 open reports/dashboard/index.html
 
+## 📈 Latest Results
+| Endpoint          | Avg Latency | Throughput | Error Rate | 90th %ile |
+|-------------------|-------------|------------|------------|-----------|
+| 🔐 Authentication | 1631ms      | 0.61/s     | 0%         | 1631ms    |
+| ➕ Create Booking | 275ms       | 3.64/s     | 0%         | 275ms     |
+| 🔍 Get Booking    | 281ms       | 3.56/s     | 0%         | 281ms     |
+| ✏️ Update Booking | 281ms       | 3.56/s     | 0%         | 281ms     |
+| 🗑️ Delete Booking | 282ms       | 3.55/s     | 0%         | 282ms     |
 
-📊 Latest Results
-Endpoint	Avg Latency	Throughput	Error Rate	90th %ile
-🔐 Authentication	1631ms	0.61/s	0%	1631ms
-➕ Create Booking	275ms	3.64/s	0%	275ms
-🔍 Get Booking	281ms	3.56/s	0%	281ms
-✏️ Update Booking	281ms	3.56/s	0%	281ms
-🗑️ Delete Booking	282ms	3.55/s	0%	282ms
-Diagram
-Code
+```mermaid
 pie showTitle
     title Request Distribution
     "Auth" : 15
@@ -41,6 +41,9 @@ pie showTitle
     "Read" : 25
     "Update" : 20
     "Delete" : 20
+
+
+    
 🏗️ Project Structure
 text
 restful-booker-performance-tests-jmeter/
