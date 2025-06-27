@@ -71,9 +71,9 @@ jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.com
 - Automate with GitHub Actions (sample in .github/workflows/)
 
 ## 🧠 Observations
-The API performs optimally under up to 3000 users.
-Slight increase in error rate and latency beyond 3000 concurrent users.
-Authentication flow remains stable across all test loads.
+- The API performs optimally under up to 3000 users.
+- Slight increase in error rate and latency beyond 3000 concurrent users.
+- Authentication flow remains stable across all test loads.
 
 # 📌 Contributor: MD. Abdul Alim
 📅 Last Updated: 6th June, 2025
