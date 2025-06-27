@@ -41,18 +41,15 @@ open reports/dashboard/index.html
     "Update" : 20
     "Delete" : 20
 
-    
 # 📂 Project Structure
-
 restful-booker-performance-tests-jmeter/
-├── test-plans/ # JMeter test scripts (.jmx)
-├── test-data/ # Parameterization CSVs
-├── results/ # Raw results (.jtl, .json)
-├── reports/ # HTML dashboards
-│ └── dashboard/ # Interactive visualizations
-├── config/ # Environment properties
-└── scripts/ # Execution helpers
-
+├── test-plans/          # JMeter test scripts (.jmx)
+├── test-data/           # Parameterization CSVs
+├── results/             # Raw results (.jtl, .json)
+├── reports/             # HTML dashboards
+│   └── dashboard/       # Interactive visualizations
+├── config/              # Environment properties
+└── scripts/             # Execution helpers
 
 ## 🛠️ Customization Guide
 
