@@ -76,7 +76,7 @@ jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.com
 - Authentication flow remains stable across all test loads.
 
 📌 Contributor: MD. Abdul Alim
-📅 Last Updated: 6th June, 2025
+- 📅 Last Updated: 6th June, 2025
 
 ### Key Features:
 1. **Visual Appeal**:
