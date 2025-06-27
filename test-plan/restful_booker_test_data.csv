@@ -1,0 +1,6 @@
+test_case,username,password,firstname,lastname,totalprice,depositpaid,checkin,checkout,additionalneeds,expected_token,expected_bookingid,updated_firstname,updated_lastname
+auth_success,admin,password123,,,,,,,,5380f0a43aa7604,,
+create_booking,,,,Abdul,Alim,111,true,2018-01-01,2019-01-01,Breakfast,,1246,,
+get_booking,,,,Abdul,Alim,111,true,2018-01-01,2019-01-01,Breakfast,,1246,,
+full_update,,,,James,Brown,111,true,2018-01-01,2019-01-01,Breakfast,,1246,James,Brown
+partial_update,,,,James,Brown,,,,,,1246,James,Brown
