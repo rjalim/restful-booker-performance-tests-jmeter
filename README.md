@@ -70,12 +70,13 @@ jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.com
 -Compare Runs using the --compare flag
 -Automate with GitHub Actions (sample in .github/workflows/)
 
-## 📜 License
-MIT © 2025 [Your Name] | 📊 View Full Report
+## 🧠 Observations
+The API performs optimally under up to 3000 users.
+Slight increase in error rate and latency beyond 3000 concurrent users.
+Authentication flow remains stable across all test loads.
 
-Made with ❤️ using Apache JMeter | Last run: 2025-06-27
-
-text
+# 📌 Contributor: MD. Abdul Alim
+📅 Last Updated: 6th June, 2025
 
 ### Key Features:
 1. **Visual Appeal**:
