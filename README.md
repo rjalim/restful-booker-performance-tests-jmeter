@@ -14,7 +14,7 @@
 - **Real-world Test Scenarios** with parameterized data
 
 ## 🚀 Quick Start
-```bash
+
 # 1. Clone repository
 git clone https://github.com/yourusername/restful-booker-performance-tests-jmeter.git
 
