@@ -66,9 +66,9 @@ restful-booker-performance-tests-jmeter/
 jmeter -g results/*.jtl -o reports/compare/ --jmeterproperty reportgenerator.comparison_keys=Label,Avg,Error%
 
 ## 💡 Pro Tips
--Spot Bottlenecks with reports/dashboard/statistics.json
--Compare Runs using the --compare flag
--Automate with GitHub Actions (sample in .github/workflows/)
+- Spot Bottlenecks with reports/dashboard/statistics.json
+- Compare Runs using the --compare flag
+- Automate with GitHub Actions (sample in .github/workflows/)
 
 ## 🧠 Observations
 The API performs optimally under up to 3000 users.
