@@ -33,7 +33,6 @@ open reports/dashboard/index.html
 | ✏️ Update Booking | 281ms       | 3.56/s     | 0%         | 281ms     |
 | 🗑️ Delete Booking | 282ms       | 3.55/s     | 0%         | 282ms     |
 
-```mermaid
 pie showTitle
     title Request Distribution
     "Auth" : 15
