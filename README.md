@@ -51,10 +51,10 @@ restful-booker-performance-tests-jmeter/
 - ├── config/              # Environment properties
 - └── scripts/             # Execution helpers
 
-▶️ How to Run the Test
-jtl file-making command
+## ▶️ How to Run the Test
+- jtl file-making command
 jmeter -n -t Performance-testing.jmx -l report\Performance-testing.jtl   
-html file generate command
+- html file generate command
 jmeter -g  report\Performance-testing.jtl -o report\Performance-testing.jtl.html  
 
 ## 🛠️ Customization Guide
