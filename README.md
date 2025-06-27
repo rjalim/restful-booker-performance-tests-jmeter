@@ -53,9 +53,13 @@ restful-booker-performance-tests-jmeter/
 
 ## ▶️ How to Run the Test
 - jtl file-making command
+```console
 jmeter -n -t Performance-testing.jmx -l report\Performance-testing.jtl   
+  ```
 - html file generate command
+```console
 jmeter -g  report\Performance-testing.jtl -o report\Performance-testing.jtl.html  
+   ```
 
 ## 🛠️ Customization Guide
 ### Modify Test Load:
