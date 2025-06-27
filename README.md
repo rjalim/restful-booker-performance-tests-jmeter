@@ -53,15 +53,16 @@ restful-booker-performance-tests-jmeter/
 ├── config/ # Environment properties
 └── scripts/ # Execution helpers
 
-🛠️ Customization Guide
-Modify Test Load:
 
-xml
+## 🛠️ Customization Guide
+
+### Modify Test Load:
 <!-- In your .jmx file -->
 <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup">
-  <intProp name="ThreadGroup.num_threads">100</intProp> <!-- Virtual Users -->
-  <intProp name="ThreadGroup.ramp_time">300</intProp>  <!-- Ramp-up (sec) -->
+  <intProp name="ThreadGroup.num_threads">100</intProp>  <!-- Virtual Users -->
+  <intProp name="ThreadGroup.ramp_time">300</intProp>   <!-- Ramp-up (seconds) -->
 </ThreadGroup>
+
 Generate Comparative Reports:
 
 bash
